@@ -1,14 +1,3 @@
-
-  <style>
-    body {
-      font-family: sans-serif;
-      margin: 2rem;
-    }
-    h1 {
-      text-align: center;
-    }
-  </style>
-
 <body>
   <h1>Financial Management AI with Generative Text Responses</h1>
 
@@ -22,17 +11,32 @@
   </ul>
 
   <h2>Project Setup</h2>
-  <ol>
-    <li>**Clone the Repository:** Use `git clone https://github.com/your-username/financial-management-ai.git` to clone this repository.</li>
-    <li>**Install Dependencies:** Run `npm install` in the project directory to install all required dependencies listed in `package.json`.</li>
-    <li>**Environment Variables:** Create a `.env` file in the project root directory and define any necessary environment variables (e.g., API keys).</li>
-  </ol>
+
+**Clone the Repository:**
+
+     ```bash 
+     git clone https://github.com/your-username/financial-management-ai.git
+     ```
+    
+**Install Dependencies:** 
+
+     ```bash 
+     npm install
+     ``` 
+**Environment Variables:** Create a `.env` file in the project root directory and define any necessary environment variables (e.g., API keys).
+  
 
   <h2>Running the Server</h2>
-  <p>Start the server using `npm start`. This will run the server with Nodemon, which automatically restarts the server whenever you make changes to the code.</p>
+
+  ```bash
+  npm start
+  ```
+  <p>This will run the server with Nodemon, which automatically restarts the server whenever you make changes to the code.</p>
 
   <h2>Future Enhancements (Not Currently Implemented)</h2>
-  <p>**LangChain Integration:** This project aims to integrate LangChain, a natural language processing library, to enable reading financial data directly from CSV and Excel spreadsheets. This functionality is currently not implemented but is planned for future development.</p>
+
+**LangChain Integration:** 
+<p>This project aims to integrate LangChain, a natural language processing library, to enable reading financial data directly from CSV and Excel spreadsheets. This functionality is currently not implemented but is planned for future development.</p>
 
   <h2>Dependencies</h2>
   <p>This project relies on the following external libraries:</p>
@@ -46,8 +50,7 @@
   </ul>
 
   <h2>License</h2>
-  <p>This project is licensed under the ISC License. See the `LICENSE` file for details.</p>
+  <p>This project is licensed under the ISC License. See the [LICENSE](LICENCE) file for details.</p>
 
-  <p><strong>Note:</strong> This README provides a basic overview of the project. You might need to update it further with specific instructions or details about your implementation.</p>
 </body>
 
