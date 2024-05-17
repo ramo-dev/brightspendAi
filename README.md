@@ -13,16 +13,13 @@
   <h2>Project Setup</h2>
 
 **Clone the Repository:**
-
-     ```bash 
+     
      git clone https://github.com/ramo-dev/brightspendAi.git
-     ```
     
 **Install Dependencies:** 
 
-     ```bash 
      npm install
-     ``` 
+     
 **Environment Variables:** Create a `.env` file in the project root directory and define any necessary environment variables (e.g., API keys).
   
 
