@@ -20,10 +20,15 @@
 
      npm install
      
-**Environment Variables:** Create a `.env` file in the project root directory and define any necessary environment variables (e.g., API keys).
-  
+**Environment Variables:** Create a `.env` file in the project root directory 
 
-  <h2>Running the Server</h2>
+Inside the .env file, add a line with the following format:
+
+    GEMINI_API=YOUR_GEMINI_API_KEY
+
+Replace YOUR_GEMINI_API with your actual Gemini API key.
+
+**Running the Server:**
 
   ```bash
   npm start
@@ -47,7 +52,7 @@
   </ul>
 
   <h2>License</h2>
-  <p>This project is licensed under the ISC License. See the [LICENSE](LICENCE) file for details.</p>
+  <p>This project is licensed under the ISC License. See the LICENCE file for details.</p>
 
 </body>
 
