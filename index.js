@@ -23,6 +23,12 @@ app.post("/chat", async (req, res) => {
   }
 });
 
+app.post("/wakeUp", (req, res)=>{
+  const {hello} = req.body;
+  res.status(200).send(hello);
+  console.log(hello)
+})
+
 app.listen(3000, () => {
   console.log("Server is running on port 3000");
 });
