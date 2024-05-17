@@ -15,7 +15,7 @@
 **Clone the Repository:**
 
      ```bash 
-     git clone https://github.com/your-username/financial-management-ai.git
+     git clone https://github.com/ramo-dev/brightspendAi.git
      ```
     
 **Install Dependencies:** 
